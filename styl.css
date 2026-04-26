@@ -1,0 +1,66 @@
+body {
+    background: linear-gradient(chocolate, #b85c00);
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    margin: 0;
+    text-align: center;
+
+    font-family: Arial, sans-serif;
+}
+
+/* titulo */
+.title {
+    color: aliceblue;
+    font-size: 60px;
+    text-shadow: 2px 2px 5px rgba(0,0,0,0.3);
+}
+
+/* subtitulo*/
+.texto {
+    color: aliceblue;
+    font-size: 40px;
+}
+
+.textop {
+    color: aliceblue;
+    font-size: 20px;
+}
+
+/* contenedor */
+.container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+
+/* tarjetas */
+.red {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    padding: 15px 20px;
+
+    background: rgba(255, 255, 255, 0.15);
+    border-radius: 15px;
+
+    box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+
+    transition: 0.3s;
+}
+
+/* se mueve al pasar el mouse el texto*/
+.red:hover {
+    transform: scale(1.05);
+    cursor: pointer;
+}
+
+/* correcion*/
+.textop {
+    color: aliceblue;
+    font-size: 20px;
+}
